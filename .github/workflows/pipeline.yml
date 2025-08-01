@@ -89,4 +89,4 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/mercure-angular:v1
+          tags: ${{ secrets.DOCKER_USERNAME }}guillaumeglt/mercure-angular:v1
